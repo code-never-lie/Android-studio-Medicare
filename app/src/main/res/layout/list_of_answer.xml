@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:background="@drawable/postround"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="30dp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnansup"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:background="@drawable/sortupnormal"/>
+        <TextView
+            android:id="@+id/tvansrate"
+            android:layout_width="wrap_content"
+            android:textSize="24dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnansdown"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:background="@drawable/sortdownnormal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="Post"
+            android:lines="7"
+            android:padding="5dp"
+            android:textColor="@color/cardview_dark_background" />
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btntick"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            android:enabled="false"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/tick"/>
+
+        <TextView
+            android:id="@+id/tvansname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnansverify"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="2"
+            android:text="Verify?"
+            android:textAllCaps="false"
+            android:background="@drawable/button_round"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+</LinearLayout>

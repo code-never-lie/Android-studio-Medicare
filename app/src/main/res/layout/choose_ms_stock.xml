@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/chooseAMS"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Attock Medical Store"
+            android:background="@drawable/button_round"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/chooseBMS"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Bilal Medical Store"
+            android:background="@drawable/button_round"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/chooseLMS"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Lahore Medical Store"
+            android:background="@drawable/button_round"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+</LinearLayout>

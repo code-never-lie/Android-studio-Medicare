@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Medicare</string>
+    <string name="title_activity_doctor">DoctorActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_patent">Nurses_csActivity</string>
+    <string-array name="hsptl">
+        <item color="@color/colorPrimary">Select Hospital</item>
+        <item color="@color/colorPrimary">DHQ Attock</item>
+        <item color="@color/colorPrimary">Khalid Saeed</item>
+        <item color="@color/colorPrimary">Al shafi</item>
+    </string-array>
+    <string-array name="Mstore">
+        <item color="@color/colorPrimary">Select Medical Store</item>
+        <item color="@color/colorPrimary">Attock Medical Store</item>
+        <item color="@color/colorPrimary">Lahore Medical Store</item>
+        <item color="@color/colorPrimary">Bilal Medical Store</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_doner">DonerActivity</string>
+    <string name="title_activity_mstore">MStoreActivity</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cardview_light_background"
+    android:layout_margin="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_weight="3"
+        android:id="@+id/tvrequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Request"/>
+
+    <Button
+        android:id="@+id/btnreqaccept"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/accept" />
+
+    <Button
+        android:id="@+id/btnreqreject"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/reject" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btntaskcomplete"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textAllCaps="false"
+        android:visibility="invisible"
+        android:padding="5dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/button_round"
+        android:layout_alignParentRight="true"
+        android:text="Task Completed?"/>
+
+    <TextView
+        android:id="@+id/tvcompleted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="COMPLETED"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:visibility="invisible" />
+
+</RelativeLayout>

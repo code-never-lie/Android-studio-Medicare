@@ -1,0 +1,212 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.example.belli.medicare.Doctor_NCSProfile">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="4"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_weight="1">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/MSimgprofile"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/main"
+                    android:layout_centerInParent="true"/>
+
+                <Button
+                    android:id="@+id/MSbtnselectprofile"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignEnd="@+id/MSimgprofile"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/MSimgprofile"
+                    android:background="@android:drawable/ic_menu_camera"
+                    android:visibility="invisible" />
+                <TextView
+                    android:id="@+id/mforumpoints"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="50dp"
+                    android:hint="0"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_weight="1"
+                    android:id="@+id/MSetusername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:hint="Username"
+                    android:textColor="@android:color/background_dark"
+                    android:textColorHint="@android:color/background_dark"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="Details"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/MSbtneditinfo"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@android:drawable/ic_menu_edit"
+                    android:paddingTop="5dp" />
+
+                <Button
+                    android:id="@+id/MSbtnsaveinfo"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@android:drawable/ic_menu_save"
+                    android:paddingTop="5dp"
+                    android:visibility="invisible" />
+            </FrameLayout>
+
+            <EditText
+                android:id="@+id/MSetLicenseNo"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:drawablePadding="10dp"
+                android:enabled="false"
+                android:hint="Licence No"
+                android:drawableLeft="@drawable/qualification"
+                android:inputType="phone"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray" />
+
+            <EditText
+                android:id="@+id/MSetemail"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="10dp"
+                android:enabled="false"
+                android:hint="Email"
+                android:drawableLeft="@drawable/email"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColorLink="@android:color/white" />
+
+            <EditText
+                android:id="@+id/MSetPhone"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="10dp"
+                android:enabled="false"
+                android:hint="Phone"
+                android:drawableLeft="@drawable/phone"
+                android:inputType="phone"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColorLink="@android:color/white" />
+
+            <EditText
+                android:id="@+id/MSetDesignation"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="10dp"
+                android:enabled="false"
+                android:hint="Designation"
+                android:drawableLeft="@drawable/idcard"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColorLink="@android:color/white" />
+
+            <EditText
+                android:id="@+id/MSetAddress"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="10dp"
+                android:enabled="false"
+                android:hint="Adress"
+                android:drawableLeft="@drawable/address"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColorLink="@android:color/white" />
+            <EditText
+                android:id="@+id/MSeteducation"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="10dp"
+                android:enabled="false"
+                android:hint="Education"
+                android:drawableLeft="@drawable/qualification"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColorLink="@android:color/white" />
+            <Spinner
+                android:id="@+id/MSspms"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:drawableLeft="@drawable/mstore"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:textColorLink="@android:color/black" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Dforum"
+            android:icon="@drawable/forum"
+            android:title="Forum" />
+        <item
+            android:id="@+id/Drequestdonor"
+            android:icon="@drawable/request"
+            android:title="Request Donor" />
+        <item
+            android:id="@+id/Dtask"
+            android:icon="@drawable/task"
+            android:title="Tasks" />
+        <item
+            android:id="@+id/Dstock"
+            android:icon="@drawable/stock"
+            android:title="Stock" />
+    </group>
+
+</menu>

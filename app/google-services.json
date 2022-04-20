@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1035973264888",
+    "firebase_url": "https://medicare-9ed76.firebaseio.com",
+    "project_id": "medicare-9ed76",
+    "storage_bucket": "medicare-9ed76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035973264888:android:d516bb430bbbeea5",
+        "android_client_info": {
+          "package_name": "com.example.belli.medicare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035973264888-v0h47oq7uq0eflv6fak8g77384gfgu3r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.belli.medicare",
+            "certificate_hash": "3b8c0292ffaf668eca2f6a559ffec35a238cff4b"
+          }
+        },
+        {
+          "client_id": "1035973264888-65ujkhq151jdr19boain90b4cq6s8uhq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.belli.medicare",
+            "certificate_hash": "197a7020b82baac97145fcb38fdea83e0eb97ada"
+          }
+        },
+        {
+          "client_id": "1035973264888-ee8215j7q5nkngk7u17gt3st1cgdumle.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn3LtRLcakTy8-xn-B9ty5i-XalJvc1vI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035973264888-ee8215j7q5nkngk7u17gt3st1cgdumle.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

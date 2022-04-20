@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answers"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@color/common_google_signin_btn_text_light_disabled"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_horizontal"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_weight="2"
+        android:id="@+id/answerrecycler"
+        android:background="?attr/colorButtonNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:gravity="bottom">
+        <Button
+            android:id="@+id/btnpanswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post Answer"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:layout_margin="1dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/button_round"/>
+    </LinearLayout>
+
+</LinearLayout>

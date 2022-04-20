@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ettitle"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/button_round"
+            android:hint="Title"/>
+        <EditText
+            android:id="@+id/etpost"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|textMultiLine"
+            android:lines="5"
+            android:background="@drawable/button_round"
+            android:hint="Create a new Post.."/>
+        <TextView
+            android:id="@+id/tvtags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:hint="TAGS..."/>
+        <AutoCompleteTextView
+            android:id="@+id/ettag"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/button_et"
+            android:hint="Serch tags here..."/>
+        <Button
+            android:id="@+id/btnpostdone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            android:background="@drawable/button_round"
+            android:text="Done"/>
+
+    </LinearLayout>
+</LinearLayout>
